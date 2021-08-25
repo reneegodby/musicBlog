@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto&display=swap" rel="stylesheet">
+    <link ref="text/css" rel="stylesheet" href="style.css"/>
+    <title>Music Blog</title>
+
+    <!--
+        Holds metadata / information we don't see. 
+            -links, viewport info, document title, etc.
+      -->
+      <!-- 3 ways to CSS with our HTML:
+            1. Embed the CSS within a <style> tag.
+            2. Inline styling within another element.
+            3. Link a stylesheet-->
+    <!-- <style> 
+        body{
+            background-color: black;
+        }
+    </style>-->
+
+</head>
+<!-- <body style="background-color: green;"> -->
+<body>
+        
+    <header>
+        <h1>Music Blog</h1>
+
+        <nav>
+           <ul> 
+               <!-- (li>span{Home})+(li>a)*3 -->
+               <li><span>Home</span></li>
+               <li><a href="#">Get Started</a></li>
+               <li><a href="#">Photos</a></li>
+               <li><a href="#">Forum</a></li></li>
+           </ul> 
+
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <!-- Main specifies the main content.
+        There can only be one!
+        Cannot be a descendant (child) of:
+            -header, nav, article, aside, footer -->
+        
+        <main>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt impedit eveniet magnam obcaecati quasi. 
+                    Eligendi laudantium sequi atque fugiat necessitatibus itaque ipsum, labore culpa molestias corrupti praesentium impedit, unde maiores.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ad, illo hic? Enim magnam dignissimos alias, provident soluta ratione voluptatem iusto facere, rem esse delectus impedit culpa, voluptate aliquid cupiditate vero.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iste. Aspernatur in eos, vel ullam quam libero corporis eius aliquam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam laborum in voluptatibus repellendus magni perspiciatis sapiente, voluptate dicta, eius illo veritatis quae debitis exercitationem est minima molestiae? Excepturi, repellat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta qui doloribus officiis voluptate laboriosam reiciendis ab ex, aliquam nemo error reprehenderit? Assumenda corporis voluptatibus quod ratione sequi eveniet fugiat voluptate.
+                </p>
+            </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+                <!-- (a>img)*4 -->              
+                <a target="_blank" href="./assets/220px-Metallica_-_Metallica_cover.jpg"><img src="./assets/220px-Metallica_-_Metallica_cover.jpg" alt="The Black Album by Metallica"></a>
+                <a target="_blank" href="./assets/220px-Phil_Collins_-_Face_Value.png"><img src="./assets/220px-Phil_Collins_-_Face_Value.png" alt="Face Value by Phil Collins"></a>
+                <a target="_blank" href="./assets/220px-Phobia-Breaking_Benjamin_album.jpg"><img src="./assets/220px-Phobia-Breaking_Benjamin_album.jpg" alt="Phobia by Breaking Benjamin"></a>
+                <a target="_blank" href="./assets/220px-Prince-SignOTheTimes.jpg"><img src="./assets/220px-Prince-SignOTheTimes.jpg" alt="Sign of the Times by Prince"></a>
+            </aside>
+        </main>
+    </section>
+    
+    <!-- Footers can contain: authorship info, copyright, contact info, a sitemap, related links/docs, back to top link -->
+    <footer>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, deleniti nihil? Aliquam, provident unde? Rem accusantium, doloribus nobis ad dolorem repellat quo ducimus, reiciendis officia pariatur odio, minus delectus! Vero?, 2021 by Renee Godby</p>
+    </footer>
+        
+</body>
+</html>
